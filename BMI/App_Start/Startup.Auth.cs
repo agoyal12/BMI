@@ -46,9 +46,9 @@ namespace BMI
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.usemicrosoftaccountauthentication(
+                clientid: "",
+                clientsecret: "");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",

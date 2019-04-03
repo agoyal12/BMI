@@ -40,7 +40,7 @@ namespace BMI.Controllers
                     }
                 }
             }
-            return View("Index");
+            return View("Upload");
         }
         public ActionResult Index()
         {
